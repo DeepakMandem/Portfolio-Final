@@ -1,0 +1,170 @@
+
+    h1 {
+        color :red;
+        padding-left : 30px;
+    }
+
+    
+    .header *{  
+        padding : 20px
+    }
+    .header{
+        background-color: cyan;
+        display:flex;
+        justify-content:space-between  
+    }
+
+
+
+    .menu a {
+        padding : 20px
+    }
+    .menu{
+        background-color: fuchsia;
+    }
+
+
+    .about{
+        background-color: lightskyblue;
+        display:flex;
+        justify-content:space-between
+    }
+
+
+
+    .grid{
+        display : flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    p.h2{
+        text-align: center;
+    }
+    
+
+    
+    .game{
+        background-color: darkmagenta;
+        position:relative
+    }
+    .game p{
+        position:absolute;
+        top : 50%;
+        left : 50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+    }
+    .game:hover p{
+        opacity:1;
+    }
+    .game:hover img{
+        opacity:0.33;
+    }
+
+   
+
+    .class{
+        background-color: steelblue;
+        position:relative
+    }
+    .class p{
+        color: white;
+        position : absolute;
+        top : 50%;
+        left : 50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+    }
+    .class:hover p{
+        opacity:1;
+    }
+    .class:hover img{
+        opacity:0.33;
+    }
+
+
+
+    .game1{
+        position:relative;
+        background-color: magenta;
+        font:bold;  
+    }
+    .game1 p{
+        position : absolute;
+        top : 50%;
+        left : 50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+    }
+    .game1:hover p{
+        opacity:1;
+    }
+    .game1:hover img{
+        opacity:0.33;
+    }
+
+
+
+
+    .car{
+        background-color: mediumblue;
+        font:bold;
+    }
+    .car p{
+        position : initial;
+        top : 50%;
+        left : 250%;
+        opacity:0;
+    }
+    .car:hover p{
+        opacity:1;
+    }
+    .car:hover img{
+        opacity:0.33;
+    }
+    
+    
+
+    .division{
+        position:relative
+    }
+    .division p{
+        position : absolute;
+        top : 50%;
+        left : 50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+    }
+    .division:hover p{
+        opacity:1;
+    }
+    .division:hover img{
+        opacity:0.33;
+    }
+
+
+    body{
+        background-color: #b0bb00;
+        border-style: dashed;
+        font:bold
+    }
+
+    a:link{
+        color : red
+    }
+
+    a:visited{
+        color : black
+    }
+
+
+
+    
+
+    
+    
+
+    
+
+    
